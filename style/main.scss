@@ -1,24 +1,59 @@
 body {
+  background-color: black;
+
   header {
     background-color: black;
+  }
 
-    nav {
-      a {
-        color: white;
-      }
-    }
+  main {
+    background-color: white;
   }
 
   footer {
     background-color: black;
+  }
+}
 
-    nav {
-      a {
-        color: white;
-      }
-    }
-    p {
+// HEADER
+header {
+  nav {
+    a {
       color: white;
     }
+  }
+}
+
+// MAIN
+main {
+  :first-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.5)),
+      url("../img/cobertura.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+  }
+
+  :last-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.5)),
+      url("../img/fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+  }
+}
+
+// FOOTER
+footer {
+  nav {
+    a {
+      color: white;
+    }
+  }
+  p {
+    color: white;
   }
 }

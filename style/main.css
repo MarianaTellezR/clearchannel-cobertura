@@ -1,15 +1,40 @@
+body {
+  background-color: black;
+}
 body header {
   background-color: black;
 }
-body header nav a {
-  color: white;
+body main {
+  background-color: white;
 }
 body footer {
   background-color: black;
 }
-body footer nav a {
+
+header nav a {
   color: white;
 }
-body footer p {
+
+main :first-child {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.5)), url("../img/cobertura.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 900px;
+}
+main :last-child {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.5)), url("../img/fondo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 900px;
+}
+
+footer nav a {
+  color: white;
+}
+footer p {
   color: white;
 }/*# sourceMappingURL=main.css.map */
