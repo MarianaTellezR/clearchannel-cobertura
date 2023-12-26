@@ -60,6 +60,11 @@ main {
       display: block;
       height: auto;
 
+      circle {
+        fill: blue;
+      }
+
+
       path {
         fill: none;
         stroke: #a245c7;

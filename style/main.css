@@ -50,6 +50,9 @@ main section svg {
   display: block;
   height: auto;
 }
+main section svg circle {
+  fill: blue;
+}
 main section svg path {
   fill: none;
   stroke: #a245c7;
