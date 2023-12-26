@@ -11,8 +11,14 @@ body footer {
   background-color: black;
 }
 
-header nav a {
-  color: white;
+header {
+  display: block;
+  padding: 20px;
+}
+header img {
+  max-height: 30px;
+  display: block;
+  margin: 0 auto;
 }
 
 main section {
@@ -23,14 +29,20 @@ main section {
   width: 100%;
   padding: 150px 0px;
 }
-main section :hover {
-  fill: #b0398d;
-  cursor: pointer;
+main section svg {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  height: auto;
 }
-main section path {
+main section svg path {
   fill: none;
   stroke: #b0398d;
   stroke-width: 2px;
+}
+main section svg :hover {
+  fill: #b0398d;
+  cursor: pointer;
 }
 
 footer nav a {

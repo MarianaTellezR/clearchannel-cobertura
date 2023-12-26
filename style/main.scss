@@ -16,10 +16,13 @@ body {
 
 // HEADER
 header {
-  nav {
-    a {
-      color: white;
-    }
+  display: block;
+
+  padding: 20px;
+  img {
+    max-height: 30px;
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -33,17 +36,21 @@ main {
     background-repeat: no-repeat;
     width: 100%;
     padding: 150px 0px;
-    
 
-    :hover {
-      fill: #b0398d;
-      cursor: pointer;
-    }
-
-    path {
-      fill: none;
-      stroke: #b0398d;
-      stroke-width: 2px;
+    svg {
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+      height: auto;
+      path {
+        fill: none;
+        stroke: #b0398d;
+        stroke-width: 2px;
+      }
+      :hover {
+        fill: #b0398d;
+        cursor: pointer;
+      }
     }
   }
 }
