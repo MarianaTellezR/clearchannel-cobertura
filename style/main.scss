@@ -43,7 +43,8 @@ main {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    padding: 60px 0px;
+    padding: 50px 0px;
+    place-content: center;
 
     h1 {
       color: white;
@@ -58,13 +59,15 @@ main {
       margin: 0 auto;
       display: block;
       height: auto;
+
       path {
         fill: none;
-        stroke: #b0398d;
+        stroke: #a245c7;
         stroke-width: 2px;
+        filter: drop-shadow(0 0 0.75rem #b0398d);
       }
       :hover {
-        fill: #b0398d;
+        fill: #b655c9;
         cursor: pointer;
       }
     }
