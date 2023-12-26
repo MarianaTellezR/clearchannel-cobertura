@@ -30,6 +30,16 @@ main :last-child {
   background-repeat: no-repeat;
   width: 100%;
   height: 900px;
+  padding: 50px auto;
+}
+main :last-child :hover {
+  fill: blue;
+  cursor: pointer;
+}
+main :last-child path {
+  fill: none;
+  stroke: #b0398d;
+  stroke-width: 2px;
 }
 
 footer nav a {
