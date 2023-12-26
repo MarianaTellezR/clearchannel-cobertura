@@ -1,5 +1,11 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
 body {
   background-color: black;
+  font-family: "Open Sans", sans-serif;
 
   header {
     background-color: black;
@@ -17,8 +23,8 @@ body {
 // HEADER
 header {
   display: block;
-
   padding: 20px;
+
   img {
     max-height: 30px;
     display: block;
@@ -35,7 +41,17 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 150px 0px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0px;
+
+    h1 {
+      color: white;
+      font-size: 35px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      letter-spacing: 5px;
+    }
 
     svg {
       width: 90%;
@@ -57,12 +73,25 @@ main {
 
 // FOOTER
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     a {
       color: white;
+      margin: 1.1em 1em;
+      font-size: 22px;
     }
   }
+
   p {
     color: white;
+    margin-block-start: 0.3em;
+    margin-block-end: 1.5em;
   }
 }
