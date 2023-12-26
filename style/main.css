@@ -3,4 +3,13 @@ body header {
 }
 body header nav a {
   color: white;
+}
+body footer {
+  background-color: black;
+}
+body footer nav a {
+  color: white;
+}
+body footer p {
+  color: white;
 }/*# sourceMappingURL=main.css.map */
