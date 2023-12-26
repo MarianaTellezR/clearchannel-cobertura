@@ -51,7 +51,8 @@ main section svg {
   height: auto;
 }
 main section svg circle {
-  fill: yellow;
+  fill: #7489fc;
+  filter: drop-shadow(0 0 0.75rem #4459d7);
 }
 main section svg path {
   fill: none;

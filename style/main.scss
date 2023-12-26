@@ -61,9 +61,9 @@ main {
       height: auto;
 
       circle {
-        fill: yellow;
+        fill: #7489fc;
+        filter: drop-shadow(0 0 0.75rem #4459d7);
       }
-
 
       path {
         fill: none;
