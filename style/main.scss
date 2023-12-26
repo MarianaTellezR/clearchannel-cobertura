@@ -25,17 +25,7 @@ header {
 
 // MAIN
 main {
-  :first-child {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.5)),
-      url("../img/cobertura.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 900px;
-  }
-
-  :last-child {
+  section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.5)),
       url("../img/fondo.png");
     background-size: cover;
@@ -46,7 +36,7 @@ main {
     padding: 50px auto;
 
     :hover {
-      fill: blue;
+      fill: #b0398d;
       cursor: pointer;
     }
 
