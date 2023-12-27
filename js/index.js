@@ -3,42 +3,42 @@ $(document).ready(function () {
 
   $(".marker-cdmx").click(function () {
     $(".hide").hide();
-    $(".cdmx-text").toggle();
+    $(".cdmx-text").fadeIn(250);
   });
 
   $(".marker-guadalajara").click(function () {
     $(".hide").hide();
-    $(".guadalajara-text").toggle();
+    $(".guadalajara-text").fadeIn(250);
   });
 
   $(".marker-monterrey").click(function () {
     $(".hide").hide();
-    $(".monterrey-text").toggle();
+    $(".monterrey-text").fadeIn(250);
   });
 
   $(".marker-puebla").click(function () {
     $(".hide").hide();
-    $(".puebla-text").toggle();
+    $(".puebla-text").fadeIn(250);
   });
 
   $(".marker-cancun").click(function () {
     $(".hide").hide();
-    $(".cancun-text").toggle();
+    $(".cancun-text").fadeIn(250);
   });
 
   $(".marker-villahermosa").click(function () {
     $(".hide").hide();
-    $(".villahermosa-text").toggle();
+    $(".villahermosa-text").fadeIn(250);
   });
 
   $(".marker-queretaro").click(function () {
     $(".hide").hide();
-    $(".queretaro-text").toggle();
+    $(".queretaro-text").fadeIn(250);
   });
 
   $(".marker-veracruz").click(function () {
     $(".hide").hide();
-    $(".veracruz-text").toggle();
+    $(".veracruz-text").fadeIn(250);
   });
 });
 
