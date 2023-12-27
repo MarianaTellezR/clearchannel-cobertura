@@ -37,6 +37,53 @@ main section {
   padding: 50px 0px;
   place-content: center;
 }
+main section .hide {
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  position: absolute;
+  margin: 10px auto;
+}
+main section .cdmx-text,
+main section .guadalajara-text,
+main section .monterrey-text,
+main section .puebla-text,
+main section .cancun-text,
+main section .villahermosa-text,
+main section .queretaro-text,
+main section .veracruz-text {
+  font-size: 12px;
+  padding: 15px 20px;
+  width: 350px;
+}
+main section .cdmx-text {
+  top: 65%;
+  left: 61%;
+}
+main section .guadalajara-text {
+  top: 70%;
+  left: 23%;
+}
+main section .monterrey-text {
+  top: 38%;
+  left: 35%;
+}
+main section .puebla-text {
+  top: 97%;
+  left: 40%;
+}
+main section .cancun-text {
+  top: 71%;
+  left: 72%;
+}
+main section .villahermosa-text {
+  top: 81%;
+  left: 65%;
+}
+main section .veracruz-text {
+  top: 80%;
+  left: 68%;
+}
 main section h1 {
   color: white;
   font-size: 35px;
