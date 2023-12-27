@@ -64,6 +64,13 @@ main section svg :hover {
   fill: #b655c9;
   cursor: pointer;
 }
+main section .message {
+  position: absolute;
+  background-color: white; /* Set a background color */
+  padding: 10px;
+  border: 1px solid black;
+  z-index: 9999; /* Ensure the message appears on top of other elements */
+}
 
 footer {
   display: flex;
