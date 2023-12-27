@@ -100,20 +100,27 @@ main section svg {
   margin: 0 auto;
   display: block;
   height: auto;
+  /*
+  :hover {
+    fill: #b655c9;
+    cursor: pointer;
+  }
+  */
 }
 main section svg circle {
-  fill: #7489fc;
-  filter: drop-shadow(0 0 0.75rem #4459d7);
+  fill: #4459d7;
+  filter: drop-shadow(0 0 0.75rem #6f81e7);
+  transition: r 120ms ease-in-out;
+}
+main section svg circle:hover {
+  cursor: pointer;
+  r: 12;
 }
 main section svg path {
-  fill: none;
-  stroke: #a245c7;
+  fill: #9665b6;
+  stroke: #7f45a5;
   stroke-width: 2px;
-  filter: drop-shadow(0 0 0.75rem #b0398d);
-}
-main section svg :hover {
-  fill: #b655c9;
-  cursor: pointer;
+  filter: drop-shadow(0 0 0.5rem #684d81);
 }
 main section .message {
   position: absolute;
