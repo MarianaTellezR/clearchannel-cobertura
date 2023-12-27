@@ -1,8 +1,52 @@
+$(document).ready(function () {
+  $(".hide").hide();
+
+  $(".marker-cdmx").click(function () {
+    $(".hide").hide();
+    $(".cdmx-text").toggle();
+  });
+
+  $(".marker-guadalajara").click(function () {
+    $(".hide").hide();
+    $(".guadalajara-text").toggle();
+  });
+
+  $(".marker-monterrey").click(function () {
+    $(".hide").hide();
+    $(".monterrey-text").toggle();
+  });
+
+  $(".marker-puebla").click(function () {
+    $(".hide").hide();
+    $(".puebla-text").toggle();
+  });
+
+  $(".marker-cancun").click(function () {
+    $(".hide").hide();
+    $(".cancun-text").toggle();
+  });
+
+  $(".marker-villahermosa").click(function () {
+    $(".hide").hide();
+    $(".villahermosa-text").toggle();
+  });
+
+  $(".marker-queretaro").click(function () {
+    $(".hide").hide();
+    $(".queretaro-text").toggle();
+  });
+
+  $(".marker-veracruz").click(function () {
+    $(".hide").hide();
+    $(".veracruz-text").toggle();
+  });
+});
+
 /* function showData(state) {
   alert("Data for " + state);
   // You can replace the alert with your logic to display data
 }
-*/
+
 
 document.addEventListener("DOMContentLoaded", function () {
   // Get all circle elements
@@ -70,3 +114,5 @@ document.addEventListener("DOMContentLoaded", function () {
     return data[state] || "No data available";
   }
 });
+
+*/

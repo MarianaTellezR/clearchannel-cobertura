@@ -69,7 +69,7 @@ main section .monterrey-text {
   left: 35%;
 }
 main section .puebla-text {
-  top: 97%;
+  top: 88%;
   left: 40%;
 }
 main section .cancun-text {
@@ -79,6 +79,10 @@ main section .cancun-text {
 main section .villahermosa-text {
   top: 81%;
   left: 65%;
+}
+main section .queretaro-text {
+  top: 69%;
+  left: 59%;
 }
 main section .veracruz-text {
   top: 80%;
