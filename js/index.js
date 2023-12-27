@@ -1,118 +1,116 @@
 $(document).ready(function () {
   $(".hide").hide();
 
-  $(".marker-cdmx").click(function () {
+  function showText(element) {
     $(".hide").hide();
-    $(".cdmx-text").fadeIn(250);
-  });
-
-  $(".marker-guadalajara").click(function () {
-    $(".hide").hide();
-    $(".guadalajara-text").fadeIn(250);
-  });
-
-  $(".marker-monterrey").click(function () {
-    $(".hide").hide();
-    $(".monterrey-text").fadeIn(250);
-  });
-
-  $(".marker-puebla").click(function () {
-    $(".hide").hide();
-    $(".puebla-text").fadeIn(250);
-  });
-
-  $(".marker-cancun").click(function () {
-    $(".hide").hide();
-    $(".cancun-text").fadeIn(250);
-  });
-
-  $(".marker-villahermosa").click(function () {
-    $(".hide").hide();
-    $(".villahermosa-text").fadeIn(250);
-  });
-
-  $(".marker-queretaro").click(function () {
-    $(".hide").hide();
-    $(".queretaro-text").fadeIn(250);
-  });
-
-  $(".marker-veracruz").click(function () {
-    $(".hide").hide();
-    $(".veracruz-text").fadeIn(250);
-  });
-});
-
-/* function showData(state) {
-  alert("Data for " + state);
-  // You can replace the alert with your logic to display data
-}
-
-
-document.addEventListener("DOMContentLoaded", function () {
-  // Get all circle elements
-  var circles = document.querySelectorAll("circle");
-
-  // Add event listeners to each circle
-  circles.forEach(function (circle) {
-    circle.addEventListener("mouseover", function () {
-      showData(circle.getAttribute("data-state"), circle);
-    });
-
-    circle.addEventListener("click", function () {
-      showData(circle.getAttribute("data-state"), circle);
-    });
-  });
-
-  function showData(state, circle) {
-    // Get the specific data for the state (replace this with your actual data logic)
-    var dataForState = getDataForState(state);
-
-    console.log(state);
-    console.log("Data for state:", dataForState);
-
-    // Create a message element
-    var message = document.createElement("div");
-    message.className = "message";
-    message.textContent = "Data for " + state + ": " + dataForState;
-
-    console.log("Message element:", message);
-
-    // Position the message element above the circle
-    var circleRect = circle.getBoundingClientRect();
-    message.style.top = circleRect.top - 30 + "px"; // Adjust the position as needed
-    message.style.left = circleRect.left + "px";
-
-    console.log("Top of circle:", circleRect.top);
-    console.log("Left of circle:", circleRect.left);
-    console.log("Calculated top for message:", circleRect.top - 30 + "px");
-    console.log("Calculated left for message:", circleRect.left + "px");
-
-    // Append the message element to the body
-    document.body.appendChild(message);
-
-    // Remove the message element after a delay (e.g., 2 seconds)
-    setTimeout(function () {
-      document.body.removeChild(message);
-    }, 7000);
+    $(element).fadeIn(250);
   }
 
-  // Replace this function with your actual data retrieval logic
-  function getDataForState(state) {
-    console.log("Getting data for state:", state);
-    // Example: Replace this with your actual data retrieval logic
-    var data = {
-      CDMX: "Population: 5 million, Capital: Chihuahua City",
-      Guadalajara: "Population: 8 million, Capital: Guadalajara",
-      Monterrey: "Population: 5 million, Capital: Chihuahua City",
-      Puebla: "Population: 8 million, Capital: Guadalajara",
-      Cancun: "Population: 5 million, Capital: Chihuahua City",
-      Villahermosa: "Population: 8 million, Capital: Guadalajara",
-      Queretaro: "Population: 5 million, Capital: Chihuahua City",
-      Veracruz: "Population: 8 million, Capital: Guadalajara",
-    };
-
-    return data[state] || "No data available";
+  function hideText() {
+    $(".hide").hide();
   }
-});
 
-*/
+  $(".marker-cdmx")
+    .click(function () {
+      showText(".cdmx-text");
+    })
+    .hover(
+      function () {
+        showText(".cdmx-text");
+      },
+      function () {
+        hideText();
+      }
+    );
+
+  $(".marker-guadalajara")
+    .click(function () {
+      showText(".guadalajara-text");
+    })
+    .hover(
+      function () {
+        showText(".guadalajara-text");
+      },
+      function () {
+        hideText();
+      }
+    );
+
+  $(".marker-monterrey")
+    .click(function () {
+      showText(".monterrey-text");
+    })
+    .hover(
+      function () {
+        showText(".monterrey-text");
+      },
+      function () {
+        hideText();
+      }
+    );
+
+  $(".marker-puebla")
+    .click(function () {
+      showText(".puebla-text");
+    })
+    .hover(
+      function () {
+        showText(".puebla-text");
+      },
+      function () {
+        hideText();
+      }
+    );
+
+  $(".marker-cancun")
+    .click(function () {
+      showText(".cancun-text");
+    })
+    .hover(
+      function () {
+        showText(".cancun-text");
+      },
+      function () {
+        hideText();
+      }
+    );
+
+  $(".marker-villahermosa")
+    .click(function () {
+      showText(".villahermosa-text");
+    })
+    .hover(
+      function () {
+        showText(".villahermosa-text");
+      },
+      function () {
+        hideText();
+      }
+    );
+
+  $(".marker-queretaro")
+    .click(function () {
+      showText(".queretaro-text");
+    })
+    .hover(
+      function () {
+        showText(".queretaro-text");
+      },
+      function () {
+        hideText();
+      }
+    );
+
+  $(".marker-veracruz")
+    .click(function () {
+      showText(".veracruz-text");
+    })
+    .hover(
+      function () {
+        showText(".veracruz-text");
+      },
+      function () {
+        hideText();
+      }
+    );
+});
