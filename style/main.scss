@@ -124,12 +124,12 @@ main {
       circle {
         fill: #4459d7;
         filter: drop-shadow(0 0 0.75rem #6f81e7);
-        transition: r 120ms ease-in-out;
+        transition: all 120ms ease-in-out;
       }
 
       circle:hover {
         cursor: pointer;
-        r: 12;
+        fill: rgb(250, 213, 112);
       }
 
       path {
