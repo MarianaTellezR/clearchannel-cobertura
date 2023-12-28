@@ -122,13 +122,6 @@ main section svg path {
   stroke-width: 2px;
   filter: drop-shadow(0 0 0.5rem #684d81);
 }
-main section .message {
-  position: absolute;
-  background-color: white; /* Set a background color */
-  padding: 10px;
-  border: 1px solid black;
-  z-index: 9999; /* Ensure the message appears on top of other elements */
-}
 
 footer {
   display: flex;
