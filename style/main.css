@@ -88,20 +88,20 @@ main section svg .text {
   fill: black;
 }
 main section svg #cdmx-rect {
-  width: 220px;
-  height: 120px;
+  width: 225px;
+  height: 275px;
 }
 main section svg #guadalajara-rect {
-  width: 300px;
-  height: 200px;
+  width: 280px;
+  height: 270px;
 }
 main section svg #monterrey-rect {
   width: 200px;
-  height: 120px;
+  height: 180px;
 }
 main section svg #puebla-rect {
   width: 200px;
-  height: 120px;
+  height: 278px;
 }
 main section svg #cancun-rect {
   width: 200px;
@@ -109,15 +109,15 @@ main section svg #cancun-rect {
 }
 main section svg #villahermosa-rect {
   width: 200px;
-  height: 120px;
+  height: 210px;
 }
 main section svg #queretaro-rect {
-  width: 200px;
-  height: 120px;
+  width: 250px;
+  height: 210px;
 }
 main section svg #veracruz-rect {
   width: 200px;
-  height: 120px;
+  height: 179px;
 }
 
 footer {
