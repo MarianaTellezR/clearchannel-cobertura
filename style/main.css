@@ -62,19 +62,19 @@ main section svg {
   */
 }
 main section svg circle {
-  fill: #4459d7;
-  filter: drop-shadow(0 0 0.75rem #6f81e7);
+  fill: #2a328a;
+  filter: drop-shadow(0 0 0.75rem #6371c4);
   transition: all 120ms ease-in-out;
 }
 main section svg circle:hover {
   cursor: pointer;
-  fill: rgb(250, 213, 112);
+  fill: #ffcb05;
 }
 main section svg path {
-  fill: #9665b6;
-  stroke: #7f45a5;
+  fill: #b283c0;
+  stroke: #8e52a1;
   stroke-width: 2px;
-  filter: drop-shadow(0 0 0.5rem #684d81);
+  filter: drop-shadow(0 0 0.5rem #73568d);
 }
 main section svg .rectangle {
   fill: #f0f0f0;
