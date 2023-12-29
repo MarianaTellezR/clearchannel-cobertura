@@ -39,8 +39,6 @@ main section {
   place-content: center;
 }
 main section .hide {
-  background-color: white;
-  border-radius: 8px;
   text-align: center;
   margin: 10px auto;
 }
