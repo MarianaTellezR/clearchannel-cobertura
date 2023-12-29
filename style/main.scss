@@ -26,7 +26,8 @@ header {
   padding: 20px;
 
   img {
-    max-height: 30px;
+    width: 60%;
+    max-width: 220px;
     display: block;
     margin: 0 auto;
   }
@@ -50,66 +51,12 @@ main {
       background-color: white;
       border-radius: 8px;
       text-align: center;
-      position: absolute;
       margin: 10px auto;
-    }
-
-    .cdmx-text,
-    .guadalajara-text,
-    .monterrey-text,
-    .puebla-text,
-    .cancun-text,
-    .villahermosa-text,
-    .queretaro-text,
-    .veracruz-text {
-      font-size: 12px;
-      padding: 15px 20px;
-      width: 350px;
-    }
-
-    .cdmx-text {
-      top: 65%;
-      left: 61%;
-    }
-
-    .guadalajara-text {
-      top: 70%;
-      left: 23%;
-    }
-
-    .monterrey-text {
-      top: 38%;
-      left: 35%;
-    }
-
-    .puebla-text {
-      top: 88%;
-      left: 40%;
-    }
-
-    .cancun-text {
-      top: 71%;
-      left: 72%;
-    }
-
-    .villahermosa-text {
-      top: 81%;
-      left: 65%;
-    }
-
-    .queretaro-text {
-      top: 69%;
-      left: 59%;
-    }
-
-    .veracruz-text {
-      top: 80%;
-      left: 68%;
     }
 
     h1 {
       color: white;
-      font-size: 35px;
+      font-size: clamp(10px, 5vw, 38px);
       font-family: "Poppins", sans-serif;
       font-weight: 500;
       letter-spacing: 5px;
@@ -160,10 +107,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     a {
       color: white;
       margin: 1.1em 1em;
-      font-size: 22px;
+      font-size: clamp(10px, 5vw, 20px);
+      transition: all 190ms ease-in-out;
+    }
+
+    a:hover {
+      cursor: pointer;
+      opacity: 0.6;
     }
   }
 
@@ -171,5 +125,6 @@ footer {
     color: white;
     margin-block-start: 0.3em;
     margin-block-end: 1.5em;
+    font-size: clamp(5px, 5vw, 22px);
   }
 }
