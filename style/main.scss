@@ -93,17 +93,27 @@ main {
 
       .text {
         font-size: 12px;
-        fill: black;
+        fill: #000434;
+
+        .title {
+          font-size: 15px;
+          font-weight: 700;
+        }
+
+        .subtitle {
+          font-size: 13px;
+          font-weight: 600;
+        }
       }
 
       #cdmx-rect {
         width: 245px;
-        height: 277px;
+        height: 305px;
       }
 
       #guadalajara-rect {
         width: 275px;
-        height: 268px;
+        height: 290px;
       }
 
       #monterrey-rect {

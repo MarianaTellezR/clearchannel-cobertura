@@ -84,15 +84,23 @@ main section svg .rectangle {
 }
 main section svg .text {
   font-size: 12px;
-  fill: black;
+  fill: #000434;
+}
+main section svg .text .title {
+  font-size: 15px;
+  font-weight: 700;
+}
+main section svg .text .subtitle {
+  font-size: 13px;
+  font-weight: 600;
 }
 main section svg #cdmx-rect {
   width: 245px;
-  height: 277px;
+  height: 305px;
 }
 main section svg #guadalajara-rect {
   width: 275px;
-  height: 268px;
+  height: 290px;
 }
 main section svg #monterrey-rect {
   width: 200px;
