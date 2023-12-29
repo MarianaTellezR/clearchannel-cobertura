@@ -13,144 +13,148 @@ $(document).ready(function () {
     veracruz: false,
   };
 
-  function showText(element) {
-    $(".hide").hide();
-    $(element).fadeIn(250);
+  function showText(marker) {
+    $("#" + marker + "-rect").fadeIn(250);
+    $("#" + marker + "-text").fadeIn(250);
   }
 
-  function hideText() {
-    $(".hide").hide();
+  function hideText(marker) {
+    $("#" + marker + "-rect").hide();
+    $("#" + marker + "-text").hide();
   }
 
-  function toggleText(marker, textClass) {
+  function toggleText(marker) {
     if (markerStates[marker]) {
-      hideText();
+      hideText(marker);
       markerStates[marker] = false;
     } else {
-      showText(textClass);
+      showText(marker);
       markerStates[marker] = true;
     }
   }
 
+  // Event handlers for each marker
   $(".marker-cdmx")
     .click(function () {
-      toggleText("cdmx", ".cdmx-text");
+      toggleText("cdmx");
     })
     .hover(
       function () {
-        showText(".cdmx-text");
+        showText("cdmx");
       },
       function () {
         if (!markerStates.cdmx) {
-          hideText();
+          hideText("cdmx");
         }
       }
     );
 
   $(".marker-guadalajara")
     .click(function () {
-      toggleText("guadalajara", ".guadalajara-text");
+      toggleText("guadalajara");
     })
     .hover(
       function () {
-        showText(".guadalajara-text");
+        showText("guadalajara");
       },
       function () {
         if (!markerStates.guadalajara) {
-          hideText();
+          hideText("guadalajara");
         }
       }
     );
 
   $(".marker-monterrey")
     .click(function () {
-      toggleText("monterrey", ".monterrey-text");
+      toggleText("monterrey");
     })
     .hover(
       function () {
-        showText(".monterrey-text");
+        showText("monterrey");
       },
       function () {
         if (!markerStates.monterrey) {
-          hideText();
+          hideText("monterrey");
         }
       }
     );
 
   $(".marker-puebla")
     .click(function () {
-      toggleText("puebla", ".puebla-text");
+      toggleText("puebla");
     })
     .hover(
       function () {
-        showText(".puebla-text");
+        showText("puebla");
       },
       function () {
         if (!markerStates.puebla) {
-          hideText();
+          hideText("puebla");
         }
       }
     );
 
   $(".marker-cancun")
     .click(function () {
-      toggleText("cancun", ".cancun-text");
+      toggleText("cancun");
     })
     .hover(
       function () {
-        showText(".cancun-text");
+        showText("cancun");
       },
       function () {
         if (!markerStates.cancun) {
-          hideText();
+          hideText("cancun");
         }
       }
     );
 
   $(".marker-villahermosa")
     .click(function () {
-      toggleText("villahermosa", ".villahermosa-text");
+      toggleText("villahermosa");
     })
     .hover(
       function () {
-        showText(".villahermosa-text");
+        showText("villahermosa");
       },
       function () {
         if (!markerStates.villahermosa) {
-          hideText();
+          hideText("villahermosa");
         }
       }
     );
 
   $(".marker-queretaro")
     .click(function () {
-      toggleText("queretaro", ".queretaro-text");
+      toggleText("queretaro");
     })
     .hover(
       function () {
-        showText(".queretaro-text");
+        showText("queretaro");
       },
       function () {
         if (!markerStates.queretaro) {
-          hideText();
+          hideText("queretaro");
         }
       }
     );
 
   $(".marker-veracruz")
     .click(function () {
-      toggleText("veracruz", ".veracruz-text");
+      toggleText("veracruz");
     })
     .hover(
       function () {
-        showText(".veracruz-text");
+        showText("veracruz");
       },
       function () {
         if (!markerStates.veracruz) {
-          hideText();
+          hideText("veracruz");
         }
       }
     );
+
+  // Add more event handlers for other markers if needed...
 });
 
 /*
