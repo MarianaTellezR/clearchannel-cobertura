@@ -79,8 +79,6 @@ main section svg path {
   filter: drop-shadow(0 0 0.5rem #684d81);
 }
 main section svg .rectangle {
-  width: 200px;
-  height: 120px;
   fill: #f0f0f0;
   stroke: #000;
   stroke-width: 1px;
@@ -88,6 +86,38 @@ main section svg .rectangle {
 main section svg .text {
   font-size: 12px;
   fill: black;
+}
+main section svg #cdmx-rect {
+  width: 200px;
+  height: 120px;
+}
+main section svg #guadalajara-rect {
+  width: 300px;
+  height: 200px;
+}
+main section svg #monterrey-rect {
+  width: 200px;
+  height: 120px;
+}
+main section svg #puebla-rect {
+  width: 200px;
+  height: 120px;
+}
+main section svg #cancun-rect {
+  width: 200px;
+  height: 120px;
+}
+main section svg #villahermosa-rect {
+  width: 200px;
+  height: 120px;
+}
+main section svg #queretaro-rect {
+  width: 200px;
+  height: 120px;
+}
+main section svg #veracruz-rect {
+  width: 200px;
+  height: 120px;
 }
 
 footer {
