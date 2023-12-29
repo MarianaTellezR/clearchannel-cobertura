@@ -86,6 +86,19 @@ main {
         filter: drop-shadow(0 0 0.5rem #684d81);
       }
 
+      .rectangle {
+        width: 200px;
+        height: 120px;
+        fill: #f0f0f0;
+        stroke: #000;
+        stroke-width: 1px;
+      }
+
+      .text {
+        font-size: 12px;
+        fill: black;
+      }
+
       /*
       :hover {
         fill: #b655c9;
@@ -107,7 +120,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     a {
       color: white;
       margin: 1.1em 1em;

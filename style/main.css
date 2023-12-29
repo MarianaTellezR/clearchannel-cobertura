@@ -78,6 +78,17 @@ main section svg path {
   stroke-width: 2px;
   filter: drop-shadow(0 0 0.5rem #684d81);
 }
+main section svg .rectangle {
+  width: 200px;
+  height: 120px;
+  fill: #f0f0f0;
+  stroke: #000;
+  stroke-width: 1px;
+}
+main section svg .text {
+  font-size: 12px;
+  fill: black;
+}
 
 footer {
   display: flex;
