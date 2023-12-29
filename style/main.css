@@ -80,27 +80,28 @@ main section svg path {
 }
 main section svg .rectangle {
   fill: #f0f0f0;
-  stroke: #000;
+  stroke: #f0f0f0;
   stroke-width: 1px;
+  border-radius: 10px;
 }
 main section svg .text {
   font-size: 12px;
   fill: black;
 }
 main section svg #cdmx-rect {
-  width: 225px;
-  height: 275px;
+  width: 245px;
+  height: 277px;
 }
 main section svg #guadalajara-rect {
-  width: 280px;
-  height: 270px;
+  width: 275px;
+  height: 268px;
 }
 main section svg #monterrey-rect {
   width: 200px;
   height: 180px;
 }
 main section svg #puebla-rect {
-  width: 200px;
+  width: 212px;
   height: 278px;
 }
 main section svg #cancun-rect {
@@ -112,11 +113,11 @@ main section svg #villahermosa-rect {
   height: 210px;
 }
 main section svg #queretaro-rect {
-  width: 250px;
+  width: 235px;
   height: 210px;
 }
 main section svg #veracruz-rect {
-  width: 200px;
+  width: 215px;
   height: 179px;
 }
 

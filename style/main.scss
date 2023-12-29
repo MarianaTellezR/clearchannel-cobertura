@@ -88,8 +88,9 @@ main {
 
       .rectangle {
         fill: #f0f0f0;
-        stroke: #000;
+        stroke: #f0f0f0;
         stroke-width: 1px;
+        border-radius: 10px;
       }
 
       .text {
@@ -98,13 +99,13 @@ main {
       }
 
       #cdmx-rect {
-        width: 225px;
-        height: 275px;
+        width: 245px;
+        height: 277px;
       }
 
       #guadalajara-rect {
-        width: 280px;
-        height: 270px;
+        width: 275px;
+        height: 268px;
       }
 
       #monterrey-rect {
@@ -113,7 +114,7 @@ main {
       }
 
       #puebla-rect {
-        width: 200px;
+        width: 212px;
         height: 278px;
       }
 
@@ -128,12 +129,12 @@ main {
       }
 
       #queretaro-rect {
-        width: 250px;
+        width: 235px;
         height: 210px;
       }
 
       #veracruz-rect {
-        width: 200px;
+        width: 215px;
         height: 179px;
       }
 
