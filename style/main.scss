@@ -31,6 +31,14 @@ header {
     display: block;
     margin: 0 auto;
   }
+
+  a {
+    color: white;
+    text-align: center;
+    font-size: clamp(5px, 5vw, 18px);
+    display: block;
+    margin: 10px auto;
+  }
 }
 
 // MAIN

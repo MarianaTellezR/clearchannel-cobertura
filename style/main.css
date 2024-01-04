@@ -26,6 +26,13 @@ header img {
   display: block;
   margin: 0 auto;
 }
+header a {
+  color: white;
+  text-align: center;
+  font-size: clamp(5px, 5vw, 18px);
+  display: block;
+  margin: 10px auto;
+}
 
 main section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.5)), url("../img/fondo.png");
