@@ -77,6 +77,14 @@ main {
         fill: #ffcb05;
       }
 
+      .ocultando-estado {
+        display: none;
+      }
+
+      .mostrando-estado {
+        display: block;
+      }
+
       path {
         fill: #b283c0;
         stroke: #8e52a1;

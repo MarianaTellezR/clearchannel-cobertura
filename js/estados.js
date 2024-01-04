@@ -14,20 +14,31 @@
 });
 */
 
-document.getElementById("agregarEstadoBtn").addEventListener("click", function () {
+document
+  .getElementById("agregarEstadoBtn")
+  .addEventListener("click", function () {
     // Obtener el nombre del estado ingresado por el usuario
-    var estadoIngresado = document.getElementById("estadoInput").value;
+    var estadoIngresado = prompt("Ingrese el nombre del estado");
 
-    // Buscar el círculo con el nombre del estado
-    var estadoCircle = document.querySelector(
-      '[data-state="' + estadoIngresado + '"]'
-    );
+    // Verificar si el usuario ingresó un nombre de estado
+    if (estadoIngresado) {
+      // Convertir a minúsculas y quitar espacios
+      estadoIngresado = estadoIngresado.toLowerCase().replace(/\s/g, "");
+      console.log(estadoIngresado);
 
-    // Si se encuentra el círculo, cambiar su clase para mostrarlo
-    if (estadoCircle) {
-      estadoCircle.classList.remove("hide");
-      estadoCircle.classList.add("mostrando");
+      // Buscar el círculo con el nombre del estado
+      var estadoCircle = document.querySelector(
+        '[data-state="' + estadoIngresado + '"]'
+      );
+
+      // Si se encuentra el círculo, cambiar su clase para mostrarlo
+      if (estadoCircle) {
+        estadoCircle.classList.remove("ocultando-estado");
+        estadoCircle.classList.add("mostrando-estado");
+      } else {
+        console.log("Estado no encontrado");
+      }
     } else {
-      console.log("Estado no encontrado");
+      console.log("Nombre de estado no proporcionado");
     }
   });

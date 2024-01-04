@@ -70,6 +70,12 @@ main section svg circle:hover {
   cursor: pointer;
   fill: #ffcb05;
 }
+main section svg .ocultando-estado {
+  display: none;
+}
+main section svg .mostrando-estado {
+  display: block;
+}
 main section svg path {
   fill: #b283c0;
   stroke: #8e52a1;
