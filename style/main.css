@@ -152,6 +152,10 @@ main section svg #veracruz-rect {
   width: 215px;
   height: 205px;
 }
+main section svg #coahuila-rect {
+  width: 245px;
+  height: 305px;
+}
 
 footer {
   display: flex;

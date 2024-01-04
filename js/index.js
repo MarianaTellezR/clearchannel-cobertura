@@ -11,6 +11,7 @@ $(document).ready(function () {
     villahermosa: false,
     queretaro: false,
     veracruz: false,
+    coahuila: false,
   };
 
   function showText(marker) {
@@ -155,4 +156,18 @@ $(document).ready(function () {
     );
 
   // Add more event handlers for other markers if needed...
+  $(".marker-coahuila")
+    .click(function () {
+      toggleText("coahuila");
+    })
+    .hover(
+      function () {
+        showText("coahuila");
+      },
+      function () {
+        if (!markerStates.cdmx) {
+          hideText("coahuila");
+        }
+      }
+    );
 });
