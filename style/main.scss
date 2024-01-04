@@ -60,6 +60,21 @@ main {
       letter-spacing: 5px;
     }
 
+    button {
+      font-size: clamp(9px, 5vw, 16px);
+      font-family: "Poppins", sans-serif;
+      padding: 5px 7px;
+      transition: all 120ms ease-in-out;
+      background-color: white;
+      border: 1px solid white;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      cursor: pointer;
+      background-color: rgb(222, 223, 223);
+    }
+
     svg {
       width: 90%;
       margin: 0 auto;
