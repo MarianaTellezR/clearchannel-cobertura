@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cobertura - ClearChannel</title>
+    <title>Cobertura Actualizar - ClearChannel</title>
     <!--Styling Sheet-->
     <link rel="stylesheet" href="style/main.css" />
     <!--Font Awesome-->
@@ -24,11 +24,12 @@
   <body>
     <header>
       <a href="index.html"><img src="/img/logo.png" /></a>
-      <a href="actualizacion.html" class="acceso-link">Acceder</a>
     </header>
     <main>
       <section>
         <h1>COBERTURA</h1>
+        <!--Boton para Agregar Nuevo Estado-->
+        <button id="agregarEstadoBtn">Agregar estado</button>
 
         <!--SVG Image-->
         <?xml version="1.0"?>
@@ -206,6 +207,210 @@
             name="Yucatán"
           ></path>
 
+          <!--ESTADOS OCULTOS-->
+
+          <!--Baja California Norte-->
+          <circle
+            cx="102"
+            cy="100"
+            r="9"
+            data-state="bajacalifornia"
+            class="marker-baja-california ocultando-estado"
+          />
+          <!--Baja California Sur-->
+          <circle
+            cx="212"
+            cy="255"
+            r="9"
+            data-state="bajacaliforniasur"
+            class="marker-baja-california-sur ocultando-estado"
+          />
+          <!--Sonora-->
+          <circle
+            cx="250"
+            cy="130"
+            r="9"
+            data-state="sonora"
+            class="marker-sonora ocultando-estado"
+          />
+          <!--Chihuahua-->
+          <circle
+            cx="385"
+            cy="125"
+            r="10"
+            data-state="chihuahua"
+            class="marker-chihuahua ocultando-estado"
+          />
+          <!--Coahuila-->
+          <circle
+            cx="510"
+            cy="190"
+            r="9"
+            data-state="coahuila"
+            class="marker-coahuila ocultando-estado"
+          />
+          <!--Tamaulipas-->
+          <circle
+            cx="625"
+            cy="310"
+            r="9"
+            data-state="tamaulipas"
+            class="marker-tamaulipas ocultando-estado"
+          />
+          <!--Sinaloa-->
+          <circle
+            cx="330"
+            cy="260"
+            r="8"
+            data-state="sinaloa"
+            class="marker-sinaloa ocultando-estado"
+          />
+          <!--Durango-->
+          <circle
+            cx="422"
+            cy="280"
+            r="9"
+            data-state="durango"
+            class="marker-durango ocultando-estado"
+          />
+          <!--Zacatecas-->
+          <circle
+            cx="488"
+            cy="339"
+            r="9"
+            data-state="zacatecas"
+            class="marker-zacatecas ocultando-estado"
+          />
+          <!--San Luis Potosi-->
+          <circle
+            cx="560"
+            cy="365"
+            r="9"
+            data-state="sanluispotosi"
+            class="marker-san-luis-potosi ocultando-estado"
+          />
+          <!--Nayarit-->
+          <circle
+            cx="428"
+            cy="390"
+            r="8"
+            data-state="nayarit"
+            class="marker-nayarit ocultando-estado"
+          />
+          <!--Aguascalientes-->
+          <circle
+            cx="506"
+            cy="382"
+            r="7"
+            data-state="aguascalientes"
+            class="marker-aguascalientes ocultando-estado"
+          />
+          <!--Guanajuato-->
+          <circle
+            cx="545"
+            cy="416"
+            r="8"
+            data-state="guanajuato"
+            class="marker-guanajuato ocultando-estado"
+          />
+          <!--Hidalgo-->
+          <circle
+            cx="611"
+            cy="430"
+            r="8"
+            data-state="hidalgo"
+            class="marker-hidalgo ocultando-estado"
+          />
+          <!--Tlaxcala-->
+          <circle
+            cx="638"
+            cy="469"
+            r="6"
+            data-state="tlaxcala"
+            class="marker-tlaxcala ocultando-estado"
+          />
+          <!--Mexico-->
+          <circle
+            cx="586"
+            cy="473"
+            r="7"
+            data-state="mexico"
+            class="marker-mexico ocultando-estado"
+          />
+          <!--Morelos-->
+          <circle
+            cx="609"
+            cy="491"
+            r="7"
+            data-state="morelos"
+            class="marker-morelos ocultando-estado"
+          />
+          <!--Michoacan-->
+          <circle
+            cx="520"
+            cy="475"
+            r="8"
+            data-state="michoacan"
+            class="marker-michoacan ocultando-estado"
+          />
+          <!--Colima-->
+          <circle
+            cx="458"
+            cy="479"
+            r="7"
+            data-state="colima"
+            class="marker-colima ocultando-estado"
+          />
+          <!--Guerrero-->
+          <circle
+            cx="580"
+            cy="527"
+            r="8"
+            data-state="guerrero"
+            class="marker-guerrero ocultando-estado"
+          />
+          <!--Oaxaca-->
+          <circle
+            cx="685"
+            cy="550"
+            r="9"
+            data-state="oaxaca"
+            class="marker-oaxaca ocultando-estado"
+          />
+          <!--Oaxaca-->
+          <circle
+            cx="685"
+            cy="550"
+            r="9"
+            data-state="oaxaca"
+            class="marker-oaxaca ocultando-estado"
+          />
+          <!--Chiapas-->
+          <circle
+            cx="816"
+            cy="568"
+            r="9"
+            data-state="chiapas"
+            class="marker-chiapas ocultando-estado"
+          />
+          <!--Campeche-->
+          <circle
+            cx="885"
+            cy="490"
+            r="10"
+            data-state="campeche"
+            class="marker-campeche ocultando-estado"
+          />
+          <!--Yucatan-->
+          <circle
+            cx="928"
+            cy="424"
+            r="9"
+            data-state="yucatan"
+            class="marker-yucatan"
+          />
+
+          <!--ESTADOS VISIBLES-->
           <!--CDMX-->
           <circle
             cx="608"
@@ -521,7 +726,8 @@
       <p>2023 Clear Channel</p>
     </footer>
 
-    <!--Javascript External link-->
+    <!--Javascript Index.js link-->
     <script src="js/index.js"></script>
+    <script src="js/estados.js"></script>
   </body>
 </html>
