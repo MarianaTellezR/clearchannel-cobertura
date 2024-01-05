@@ -35,6 +35,21 @@ document
       if (estadoCircle) {
         estadoCircle.classList.remove("ocultando-estado");
         estadoCircle.classList.add("mostrando-estado");
+
+        // Solicitar al usuario que ingrese el título
+        var tituloIngresado = prompt("Ingrese el título");
+
+        if (tituloIngresado) {
+          var text = document.getElementById(estadoIngresado + "-text");
+          var rect = document.getElementById(estadoIngresado + "-rect");
+
+          console.log(text);
+          console.log(rect);
+
+          text.querySelector(".title").textContent = tituloIngresado;
+        } else {
+          console.log("Título no proporcionado");
+        }
       } else {
         console.log("Estado no encontrado");
       }
