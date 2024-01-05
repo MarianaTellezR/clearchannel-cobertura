@@ -202,47 +202,51 @@ main section svg #jalisco-rect {
 }
 main section svg #guanajuato-rect {
   width: 245px;
-  height: 305px;
+  height: 240px;
+}
+main section svg #aguascalientes-rect {
+  width: 245px;
+  height: 240px;
 }
 main section svg #hidalgo-rect {
   width: 245px;
-  height: 305px;
+  height: 240px;
 }
 main section svg #colima-rect {
   width: 245px;
-  height: 305px;
+  height: 240px;
 }
 main section svg #michoacan-rect {
   width: 245px;
-  height: 305px;
+  height: 240px;
 }
 main section svg #morelos-rect {
   width: 245px;
-  height: 305px;
+  height: 240px;
 }
 main section svg #mexico-rect {
   width: 245px;
-  height: 305px;
+  height: 240px;
 }
 main section svg #guerrero-rect {
   width: 245px;
-  height: 305px;
+  height: 240px;
 }
 main section svg #oaxaca-rect {
   width: 245px;
-  height: 305px;
+  height: 240px;
 }
 main section svg #chiapas-rect {
   width: 245px;
-  height: 305px;
+  height: 240px;
 }
 main section svg #campeche-rect {
   width: 245px;
-  height: 305px;
+  height: 240px;
 }
 main section svg #yucatan-rect {
   width: 245px;
-  height: 305px;
+  height: 240px;
 }
 
 footer {
