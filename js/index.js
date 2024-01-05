@@ -286,21 +286,6 @@ $(document).ready(function () {
       }
     );
 
-  $(".marker-sinaloa")
-    .click(function () {
-      toggleText("sinaloa");
-    })
-    .hover(
-      function () {
-        showText("sinaloa");
-      },
-      function () {
-        if (!markerStates.sinaloa) {
-          hideText("sinaloa");
-        }
-      }
-    );
-
   $(".marker-durango")
     .click(function () {
       toggleText("durango");
